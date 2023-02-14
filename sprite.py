@@ -22,7 +22,6 @@ class Meteorite(pg.sprite.Sprite):
         self.rect.x -= self.speedx
         self.rect.y += self.speedy
 
-
 class Mouse_starship(pg.sprite.Sprite):
     def __init__(self):
         pg.sprite.Sprite.__init__(self)

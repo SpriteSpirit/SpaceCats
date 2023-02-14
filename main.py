@@ -87,7 +87,6 @@ laser_sound = pg.mixer.Sound("11377 ice cannon shot.wav")
 win_sound = pg.mixer.Sound("Victory Screen Appear 01.wav")
 
 while is_running:
-
     # СОБЫТИЯ
     for event in pg.event.get():
         if event.type == pg.QUIT:
